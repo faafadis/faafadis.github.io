@@ -10,12 +10,15 @@ h1  {
     
   
   text-align: center;
-  text-decoration: underline;
+  letter-spacing: 0.25em;
+    color:#a4a400;
+    background-color:#F0F0F0;
+ text-decoration: underline;
 }
 h2  {
   letter-spacing: 0.25em;
-    color:green;
-    background-color: cadetblue;
+    color:#a4a400;
+    background-color:#F0F0F0;
  text-decoration: underline;
 }
  

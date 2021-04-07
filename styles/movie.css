@@ -1,0 +1,43 @@
+body{
+    background-image: url(/image/images/background.png);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+   
+}
+#header{
+    width: 100%;
+    height: 100%;
+    
+    margin: auto;
+  
+    
+}
+
+#riban{
+   
+    text-align: center;
+    background-image:url(/image/images/bannerbg.png);
+
+  
+   
+    }
+    section{ display: grid;
+
+    
+    border: 1px solid rgb(172, 172, 177);
+    border-width: 5px;
+    border-radius: 44px;
+  margin:auto;
+}
+
+#general>img{ 
+    
+    float:right;
+    
+    border-top-right-radius: 44px;
+}
+#r33{
+    position: absolute;
+}

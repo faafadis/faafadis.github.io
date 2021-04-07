@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webform2</title>
+    <style>
+       
+       
+       
+      form{
+          width: 1000px;
+          background-color: white;
+
+
+
+
+
+      }
+     .left{
+          width:100%;
+          float: left;
+          text-align: left;
+
+          width: 50%;
+          margin-right: 0mm;
+            padding-right: 0mm;
+      }
+      .right{
+          width: 100%;
+          float: left;
+          text-align: left;
+          width: 50%;
+          margin-right: 0mm;
+            padding-right: 0mm;
+         
+      }
+      .footer{
+          width: 65%;
+          clear: both;
+          text-align: right;
+          padding-top: 2em;
+          padding-left: 2em;
+          padding-left: 0%;}
+        .header {
+            width:100%;
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: dodgerblue;
+            /* box-sizing: border-box; */
+
+        }
+        .header >div{
+            width: fit-content;
+            height: 25%;
+        }
+        #signout{
+           position: relative;
+            margin-right: 0mm;
+            padding-right: 0mm;
+        
+        }
+           nav{width: 1000px;
+            background-color: dodgerblue;
+               height: 50px;
+               color: white;
+             
+           }
+           nav ul{
+
+           }
+           nav ul li{
+               list-style-type: none;
+               width: px;
+               float: left;
+               display: block;
+            
+           }
+           nav ul li button{
+            background-color: dodgerblue;
+              color: white;
+           }
+
+    </style>
+</head>
+<div>
+    <nav>
+        <ul>
+            <li id="mum"><p >MUM Golden Dome MArket::: SRM System</p></li>
+            <li><button  id="Product" type="button" name="Product">Product</button</li>
+                <li><button  id="supplier" type="button" name="supplier">Supplier</button></li>
+                <li><button  id="signout" type="submit" name="sign out">Sign Out</button></li>
+        </ul>
+    </nav>
+    <form action="">  
+       
+        
+   
+    </div><br>
+        <fieldset><legend>New Product Form</legend>
+             <div class="left">
+          
+            <label for="product-number">product-number</label> <br>
+            <input id="product-number" type="text" name="product-number"><br>
+            <label for="name"> name</label><br>
+                <input id="name" type="text" name="name"><br>
+                <label for="unit-price"> unit-price</label><br>
+                <input id="unit-price" type="text" name="unit-price"><br>
+        </div>
+            <div class="right"> <label for="quantity-in-stock"> quantity-in-stock</label><br>
+                <input id="quantity-in-stock" type="text" name="quantity-in-stock"><br>
+                <label for="supplier"> supplier</label><br>
+                <select  id="supplier" name="supplier" id="supplier"><br>
+                    <option value="">select a supplier</option>
+                </select><br>
+                <label   for="date-supplied">date-supplied</label><br>
+                <input id="date-supplied" type="date" name="date-supplied" placeholder="yyyy-mm-dd">
+            </div>
+            <div class="footer">
+                <button  id="reset" type="reset" name="reset">Reset</button>
+                <button  id="cancle" type="cancle" name="cancle">cancle</button>
+                <button id="submit" type="submit" name="submit">Add Product</button>
+
+
+            </div>
+   
+        </fieldset>
+        
+
+    </form>
+         
+</div>
+<body>
+    
+</body>
+</html>
